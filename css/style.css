@@ -277,8 +277,8 @@
 }
 
 .slider__line {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     position: relative;
     border-radius: 10px;
     padding-bottom: 65px;
