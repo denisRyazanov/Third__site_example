@@ -510,11 +510,19 @@
   margin-bottom: 45px;
 }
 
+.footer__social-link:hover, .footer__social-link:focus {
+  opacity: 0.6;
+}
+
+.footer__block-language {
+  background: url(../img/svg/lang-pic.svg) left center no-repeat;
+}
 .footer__language-list {
   display: block;
+  position: relative;
+  left: 20px;
   border: none;
-  background: url(../img/svg/lang-pic.svg) left center no-repeat;
-  padding-left: 25px;
+  background-color: rgb(21, 19, 26);
   font-family: 'Circular Std';
   font-style: normal;
   font-weight: 450;
@@ -522,6 +530,13 @@
   line-height: 18px;
   color: #FFFFFF;
   cursor: pointer;
+  
+}
+
+.footer__language-item {
+  /* display: block; */
+  background-color: black;
+  /* color: black; */
 }
 
    /* FOOTER STYLES END */
@@ -638,7 +653,7 @@
     margin-bottom: 15px;
   }
   .header__button {
-    left: 1px;
+    left: 0;
   }
   .header__burger {
     left: 15%;
