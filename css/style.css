@@ -78,6 +78,9 @@
 
 .header {
     background: rgb(25, 23, 31);
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
 .header__wrapper {
