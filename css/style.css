@@ -698,3 +698,7 @@
     left: 10%;
   }
 }
+
+.slick-track:last-child {
+  margin-right: 0;
+}
