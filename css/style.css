@@ -637,6 +637,12 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .learn__block:last-child {
+    width: 600px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .header__nav-close {
     top: 20px;
@@ -669,7 +675,6 @@
   }
   .learn__block:last-child {
     width: 400px;
-    right: 0;
   }
   .about {
     padding-bottom: 100px;
