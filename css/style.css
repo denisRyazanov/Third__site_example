@@ -100,7 +100,7 @@
     display: flex;
   }
 
-.header__item-link {
+.list__item-link {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -110,15 +110,15 @@
     text-decoration: none;
   }
 
-.header__item-link:hover {
+.list__item-link:hover {
     color: #626ab8;
   }
 
-.header__item {
+.list__item {
     margin-right: 40px;
   }
 
-.header__item:last-child {
+.list__item:last-child {
     margin-right: 0;
   }
 
@@ -583,11 +583,11 @@
     display: block;
     right: 40%;
   }
-  .header__item {
+  .list__item {
     margin-right: 0;
     margin-bottom: 40px;
   }
-  .header__item-link {
+  .list__item-link {
     font-size: 32px;
     line-height: 22px;
   }
