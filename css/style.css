@@ -183,8 +183,8 @@
   }
 
 .intro__wrapper {
-    display: grid;
-    grid-template-columns: 604px 632px;
+    display: flex;
+    /* grid-template-columns: 604px 632px; */
     align-items: center;
     margin-bottom: 90px;
   }
@@ -278,12 +278,12 @@
 
 .learn__block:last-child {
     position: relative;
-    right: -68px;
+    /* right: -68px; */
 }
 
 .learn__wrapper {
-    display: grid;
-    grid-template-columns: 725px 484px;
+    display: flex;
+    /* grid-template-columns: 725px 484px; */
     align-items: center;
 }
 
@@ -372,8 +372,8 @@
 }
 
 .about__wrapper {
-    display: grid;
-    grid-template-columns: 548px 642px;
+    display: flex;
+    /* grid-template-columns: 548px 642px; */
     align-items: center;
 }
 
@@ -541,12 +541,12 @@
   .intro__block:last-child {
     display: none;
   }
-  .learn__block:first-child {
+  /* .learn__block:first-child {
     display: none;
-  }
-  .about__block:last-child {
+  } */
+  /* .about__block:last-child {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 1240px) {
