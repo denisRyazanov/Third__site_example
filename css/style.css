@@ -392,6 +392,10 @@
   max-width: 500px;
 }
 
+.about__block img{
+  width: 100%;
+}
+
 .about__title {
   font-family: 'Open Sans';
   font-style: normal;
