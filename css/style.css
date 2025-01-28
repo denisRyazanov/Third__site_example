@@ -759,5 +759,8 @@
   .header__burger {
     left: 10%;
   }
+  .intro__block {
+    padding-top: 140px;
+  }
 }
 
