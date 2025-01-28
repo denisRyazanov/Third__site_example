@@ -280,6 +280,10 @@
     padding-bottom: 170px;
 }
 
+.learn__block img{
+  width: 100%;
+}
+
 .learn__block:last-child {
     position: relative;
     max-width: 420px;
