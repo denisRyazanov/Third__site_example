@@ -732,6 +732,9 @@
   .about {
     padding-bottom: 100px;
   }
+  .hide {
+    display: none;
+  }
   /* .about__wrapper {
     grid-template-columns: 400px 642px;
   }
