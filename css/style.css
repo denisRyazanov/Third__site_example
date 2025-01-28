@@ -278,7 +278,8 @@
 
 .learn__block:last-child {
     position: relative;
-    /* right: -68px; */
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .learn__wrapper {
