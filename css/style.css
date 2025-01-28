@@ -681,6 +681,12 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .header__burger {
+    left: 40%;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .header__nav-close {
     top: 20px;
