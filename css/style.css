@@ -292,6 +292,7 @@
 
 .learn__wrapper {
     display: flex;
+    flex-wrap: wrap;
     /* grid-template-columns: 725px 484px; */
     align-items: center;
 }
@@ -648,9 +649,9 @@
   .brands__list-item {
     margin-bottom: 20px;
   }
-  .learn__wrapper {
+  /* .learn__wrapper {
     grid-template-columns: 750px 484px;
-  }
+  } */
   .learn__block:last-child {
     width: 750px;
     right: 0;
@@ -667,6 +668,9 @@
 @media screen and (max-width: 640px) {
   .learn__block:last-child {
     width: 600px;
+  }
+  .header__burger {
+    left: 50%;
   }
 }
 
