@@ -685,6 +685,10 @@
   .header__burger {
     left: 40%;
   }
+  .header__button {
+    /* position: relative; */
+    left: 5%;
+  }
 }
 
 @media screen and (max-width: 430px) {
