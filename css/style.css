@@ -666,10 +666,12 @@
 }
 
 
-@media screen and (max-width: 640px) {
-  .learn__block:last-child {
+@media screen and (max-width: 720px) {
+  /* .learn__block:last-child {
     width: 600px;
-  }
+  } */
+  .
+
   .header__burger {
     left: 50%;
   }
