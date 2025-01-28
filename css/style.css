@@ -374,6 +374,7 @@
 
 .about__wrapper {
     display: flex;
+    flex-wrap: wrap;
     /* grid-template-columns: 548px 642px; */
     align-items: center;
 }
