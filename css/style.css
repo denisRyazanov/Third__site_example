@@ -391,6 +391,7 @@
 
 .about__block {
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .about__block img{
