@@ -691,7 +691,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 490px) {
   .header__nav-close {
     top: 20px;
     left: 60%;
