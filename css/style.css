@@ -433,8 +433,13 @@
 
 .footer__blocks {
   display: flex;
+  flex-wrap: wrap;
   /* grid-template-columns: repeat(5, 1fr); */
   gap: 26px;
+}
+
+.footer__block {
+  max-width: 250px;
 }
 
 .footer__block-desc {
