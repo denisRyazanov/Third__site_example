@@ -712,7 +712,7 @@
   }
   .intro__button-start {
     margin-bottom: 20px;
-    margin-right: 0;
+    /* margin-right: 0; */
   }
   /* .intro__wrapper {
     grid-template-columns: 400px 632px;
