@@ -711,6 +711,7 @@
     left: 15%;
   }
   .intro__button-start {
+    margin-bottom: 20px;
     margin-right: 0;
   }
   /* .intro__wrapper {
