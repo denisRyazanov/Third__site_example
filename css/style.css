@@ -375,8 +375,13 @@
 .about__wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     /* grid-template-columns: 548px 642px; */
     align-items: center;
+}
+
+.about__block {
+  max-width: 400px;
 }
 
 .about__title {
