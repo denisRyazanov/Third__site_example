@@ -713,9 +713,9 @@
   .intro__button-start {
     margin-right: 0;
   }
-  .intro__wrapper {
+  /* .intro__wrapper {
     grid-template-columns: 400px 632px;
-  }
+  } */
   .brands__list {
     justify-content: space-around;
     margin-bottom: 0;
@@ -732,22 +732,22 @@
   .about {
     padding-bottom: 100px;
   }
-  .about__wrapper {
+  /* .about__wrapper {
     grid-template-columns: 400px 642px;
   }
   .footer__blocks {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
-  }
+  } */
 }
 
 @media screen and (max-width: 394px) {
   .intro__button-start {
     margin-bottom: 10px;
   }
-  .intro__wrapper, .about__wrapper, .learn__wrapper {
+  /* .intro__wrapper, .about__wrapper, .learn__wrapper {
     grid-template-columns: 350px 632px;
-  }
+  } */
   .learn__block:last-child {
     width: 350px;
     right: 0;
