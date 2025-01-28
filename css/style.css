@@ -258,7 +258,6 @@
     background: url(../img/svg/play-pic.svg) 20px center no-repeat #3A68B8;
   }
 
-
 .brands__list {
     display: flex;
     flex-wrap: wrap;
@@ -279,20 +278,15 @@
     padding-top: 130px;
     padding-bottom: 170px;
 }
-
 .learn__block {
   margin: 0 auto;
   padding-bottom: 40px;
 }
-
 .learn__block img{
   width: 100%;
 }
-
 .learn__block:last-child {
-    position: relative;
     max-width: 420px;
-    margin: 0 auto;
 }
 
 .learn__wrapper {
@@ -656,10 +650,6 @@
     -webkit-transform: translateY(-50%) rotate(-45deg);
         -ms-transform: translateY(-50%) rotate(-45deg);
             transform: translateY(-50%) rotate(-45deg);
-  }
-  .learn__block:last-child {
-    width: 750px;
-    right: 0;
   }
 }
 
