@@ -280,6 +280,10 @@
     padding-bottom: 170px;
 }
 
+.learn__block {
+  margin: 0 auto;
+}
+
 .learn__block img{
   width: 100%;
 }
