@@ -263,9 +263,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 100px;
+    justify-items: center
+    /* padding-bottom: 100px; */
   }
 
+.brands__item {
+  padding-bottom: 20px;
+}
    /* INTRO STYLES END */
 
    /* LEARN STYLES START */
@@ -278,7 +282,7 @@
 
 .learn__block:last-child {
     position: relative;
-    max-width: 400px;
+    max-width: 420px;
     margin: 0 auto;
 }
 
@@ -381,7 +385,7 @@
 }
 
 .about__block {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .about__title {
