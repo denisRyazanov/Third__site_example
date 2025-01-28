@@ -432,10 +432,9 @@
 }
 
 .footer__blocks {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  align-items: center;
-  column-gap: 26px;
+  display: flex;
+  /* grid-template-columns: repeat(5, 1fr); */
+  gap: 26px;
 }
 
 .footer__block-desc {
