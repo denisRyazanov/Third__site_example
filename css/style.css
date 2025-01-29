@@ -572,6 +572,7 @@
 @media screen and (max-width: 1175px) {
   .header__wrapper {
     justify-content: flex-start;
+    align-items: flex-start;
   }
   .header__button {
     position: relative;
